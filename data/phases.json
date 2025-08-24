@@ -1,0 +1,359 @@
+{
+  "game_intro": {
+    "title": "☕ El Rincón de Amaru ☕",
+    "subtitle": "Simulador de Decisiones Estratégicas",
+    "story": "Amaru Mamani, un joven emprendedor cochabambino de 26 años, siempre soñó con crear un espacio acogedor que mezclara cultura, café de altura y emprendimiento juvenil. Tras varios años de ahorrar, vender postres desde casa y capacitarse en barismo y administración, logró abrir una pequeña cafetería en el centro cultural de la ciudad: El Rincón de Amaru.\n\nSu propuesta era distinta: no solo vender café, sino crear una experiencia. Decoración con obras de artistas locales, música en vivo una vez por semana, menú de productos locales (como café yungueño, tostadas con llajwa, y leche de almendra hecha en casa) y atención directa por Amaru y su prima.\n\nAhora te conviertes en Amaru. ¿Podrás mantener el equilibrio estratégico y hacer crecer El Rincón de Amaru sin perder su alma?"
+  },
+  "indicators": {
+    "Liquidez": {
+      "emoji": "💵",
+      "description": "Dinero disponible para operar en el corto plazo. Es el efectivo que tienes a la mano para pagar sueldos, alquiler, etc."
+    },
+    "Rentabilidad": {
+      "emoji": "📈", 
+      "description": "El retorno sobre lo que inviertes. Cuánto ganas en relación a lo que gastas."
+    },
+    "Reputación": {
+      "emoji": "⭐",
+      "description": "La percepción que los clientes tienen de tu marca, basada en calidad, experiencia y valores."
+    },
+    "Riesgo acumulado": {
+      "emoji": "⚠️",
+      "description": "Nivel de exposición a errores estratégicos. Si llega al 100%, el negocio colapsa."
+    },
+    "Sostenibilidad estratégica": {
+      "emoji": "🌱",
+      "description": "Coherencia entre tus decisiones actuales y tu visión de largo plazo."
+    }
+  },
+  "phases": [
+    {
+      "id": 1,
+      "title": "🏝️ ISLA 1: Poder de Negociación con los Proveedores",
+      "context": "Tu cafetería 'El Rincón de Amaru' ha comenzado con buen pie: los primeros meses han tenido una respuesta positiva de los clientes, especialmente por la calidad del café orgánico que sirves, el pan artesanal que acompaña los desayunos y la ambientación cultural del lugar.\n\nSin embargo, tu proveedor principal de café —una cooperativa de pequeños productores andinos— ha anunciado que debido a la creciente demanda, los precios base van a subir, y están priorizando contratos anuales con clientes fijos. Por otro lado, han comenzado a llegar nuevas ofertas de proveedores privados, algunos con precios más bajos, otros con entregas más flexibles, pero sin historial contigo.\n\nEs momento de tomar una decisión crítica: cómo gestionar tu cadena de suministros sin perder identidad, liquidez ni competitividad.",
+      "question": "¿Cómo gestionarás tu cadena de suministros sin perder identidad, liquidez ni competitividad?",
+      "decisions": [
+        {
+          "id": "A",
+          "text": "🤝 Firmar un contrato anual con el proveedor original",
+          "strategy_type": "🛡️ Estrategia Preventiva",
+          "effects": {
+            "Rentabilidad": -4,
+            "Reputación": 5, 
+            "Sostenibilidad estratégica": 6
+          },
+          "description": "Decides firmar un contrato anual con la cooperativa andina que te provee café. La propuesta incluye una subida del 10% en el precio por kilo, pero garantizan abastecimiento mensual, trazabilidad del grano, y apoyo en campañas de marketing con el sello 'Comercio Justo'. Algunos colegas te comentan que este proveedor tiene prácticas más lentas para responder a pedidos urgentes, y que el contrato incluye penalidades por reducción en el volumen pactado. Pero sabes que la calidad está probada y que muchos de tus clientes te han felicitado por el sabor y la historia detrás del café que sirves."
+        },
+        {
+          "id": "B", 
+          "text": "💰 Aceptar la propuesta de un nuevo proveedor privado con precios bajos",
+          "strategy_type": "⚡ Estrategia Reactiva",
+          "effects": {
+            "Rentabilidad": 6,
+            "Reputación": -6,
+            "Riesgo acumulado": 10
+          },
+          "description": "Te llega una oferta de una empresa distribuidora que dice traer café del trópico en grandes volúmenes, a un 25% menos del precio actual. No exige contratos fijos ni pagos anticipados. Te prometen entregas puntuales y te muestran un portafolio con más productos que podrías necesitar en el futuro. Eso sí, no te ofrecen visitar sus fincas, ni tienen certificaciones ambientales o sociales. Cuando preguntas por el origen exacto del café, evitan dar detalles. Hay emprendedores que dicen que les fue bien con ellos, otros que aseguran que la calidad del grano no es tan constante."
+        },
+        {
+          "id": "C",
+          "text": "🔄 Adoptar una política de compras libres (sin fidelidad fija)",
+          "strategy_type": "🔄 Estrategia Adaptativa",
+          "effects": {
+            "Sostenibilidad estratégica": -5,
+            "Riesgo acumulado": 7
+          },
+          "description": "Eliges no comprometerte con nadie. Mantienes una lista abierta de proveedores, a los que consultarás cada semana o quincena. Esto te permite aprovechar las mejores ofertas disponibles en cada momento, e incluso experimentar con nuevos sabores de café. Sin embargo, ya has notado que esta práctica te exige mucho tiempo operativo buscando, comparando y coordinando entregas. A veces los productos no llegan exactamente cuando los necesitas, lo cual genera ciertos baches. Algunos clientes han notado sutiles cambios de sabor en el café semana a semana."
+        },
+        {
+          "id": "D",
+          "text": "🚀 Iniciar tu propio microcentro de acopio y alianzas directas",
+          "strategy_type": "🚀 Estrategia Proactiva",
+          "effects": {
+            "Liquidez": -10,
+            "Sostenibilidad estratégica": 8,
+            "Reputación": 6,
+            "Riesgo acumulado": 5
+          },
+          "description": "Decides dar un paso audaz: utilizar parte de tu fondo de liquidez para montar un pequeño centro de acopio en las afueras de la ciudad. El objetivo es establecer relaciones directas con productores locales, comprar en origen a mejores precios y asegurar una calidad constante sin intermediarios. Esto te toma tiempo, aprendizaje legal y operativo, y debes invertir en logística. En el corto plazo, tus costos se disparan. Pero en el mediano plazo, si logras estabilizar el sistema, podrías obtener una ventaja competitiva fuerte.",
+          "unlocks": "isla_1_D"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "🏝️ ISLA 2: Poder de Negociación de los Clientes",
+      "context": "Han pasado varios meses desde que El Rincón de Amaru abrió sus puertas. El boca a boca ha funcionado y, con algo de esfuerzo y muchas noches largas, el negocio ha empezado a encontrar su clientela. Gente que repite, gente que recomienda, incluso algunos 'clientes fijos'.\n\nPero con la consolidación viene un nuevo tipo de presión. Ya no solo es atraer clientes. Ahora es mantenerlos. Algunos hacen comentarios casuales: 'En Taza Nómada me sirven más rápido...' 'Café Etéreo tiene unos pastelitos con maracuyá buenísimos...' '¿Aquí no hacen promociones los lunes?' Todo esto te plantea una situación incómoda: el cliente ahora tiene el poder.",
+      "question": "¿Cómo responderás a las crecientes exigencias de tus clientes sin perder tu esencia?",
+      "decisions": [
+        {
+          "id": "A",
+          "text": "🎯 Profundizar tu identidad",
+          "strategy_type": "🎯 Estrategia de Diferenciación",
+          "effects": {
+            "Reputación": 10,
+            "Rentabilidad": -5,
+            "Liquidez": -3
+          },
+          "description": "Decidís no competir en amplitud, sino en profundidad. Apostás por lo que sabés hacer: café de calidad, en un ambiente reflexivo. Contratás a un barista con experiencia en catas, rediseñás una esquina del local para hacer microeventos mensuales de 'charlas con cafecito', y renovás las cartas para explicar con storytelling el origen de cada grano que servís. Te hacés más auténtico. 'Aquí no vienes a tomar un café. Aquí venís a entenderlo.'"
+        },
+        {
+          "id": "B",
+          "text": "🤝 Co-creación responsable con los clientes",
+          "strategy_type": "⚡ Estrategia Reactiva - Esperas que los clientes te digan qué hacer",
+          "effects": {
+            "Reputación": 12,
+            "Liquidez": -4,
+            "Rentabilidad": -2
+          },
+          "description": "Reconoces que los clientes tienen poder. Pero en vez de ceder sin filtro, canalizás ese poder para co-crear. Habilitás un 'buzón de ideas' físico y digital, incorporás una opción de leche vegetal con sobreprecio justo, permitís el ingreso de mascotas en una zona exterior reacondicionada, y abrís un programa de 'cliente consejero', donde algunos clientes frecuentes prueban productos nuevos antes de lanzarlos. No hacés todo lo que piden, pero mostrás escucha y criterio. 'Queremos construir esto con ustedes, no para ustedes.'"
+        },
+        {
+          "id": "C",
+          "text": "🎁 Apostar por fidelización medible",
+          "strategy_type": "🛡️ Estrategia Preventiva",
+          "effects": {
+            "Reputación": 8,
+            "Rentabilidad": -5,
+            "Sostenibilidad estratégica": 4
+          },
+          "description": "Lanzás un sistema de fidelización simple: cada cliente acumula puntos por consumo, que luego puede canjear por bebidas o snacks. Además, hacés encuestas presenciales y digitales para mejorar la atención y el menú. La idea es que el cliente se quede porque siente que vale la pena. El sistema lo gestionás sin app, usando cupones físicos numerados para evitar sobrecostos tecnológicos. 'Premiamos a quienes nos eligen siempre.'",
+          "unlocks": "isla_5_E"
+        },
+        {
+          "id": "D",
+          "text": "✨ Crear la percepción de novedad constante",
+          "strategy_type": "🔄 Estrategia Adaptativa",
+          "effects": {
+            "Reputación": 6,
+            "Rentabilidad": 2,
+            "Liquidez": -1
+          },
+          "description": "No cambiás tus valores, pero decidís adaptarte desde lo operativo. Cada mes y medio, ajustás la carta: rotás el tipo de café según temporada, destacás un postre distinto, ofrecés una bebida especial. No hacés descuentos ni promociones agresivas. Simplemente, mantenés la frescura. 'Siempre algo nuevo, sin dejar de ser nosotros.'",
+          "synergy_with": "isla_3_A",
+          "synergy_bonus": {
+            "Rentabilidad": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "🏝️ ISLA 3: Amenaza de los Nuevos Entrantes",
+      "context": "Han pasado unos meses. El Rincón de Amaru ha logrado construir una clientela estable y un estilo propio que lo diferencia de otras cafeterías. A estas alturas, el boca a boca les ha funcionado bien, y ya no son solo un café bonito: algunos los reconocen por su compromiso con el comercio justo, otros por su playlist relajada o su espacio de lectura.\n\nPero los emprendedores saben que eso no basta. Porque lo que parecía una moda pasajera se ha convertido en una ola competitiva avasalladora. Resulta que un inversor extranjero ha abierto una cadena de cafeterías de bajo costo en tu ciudad. Copian conceptos locales, pero los ejecutan con procesos estandarizados y eficiencia operativa. En cuestión de semanas ya tienen 3 sucursales.\n\nY como si fuera poco, un ex influencer gastronómico ha abierto 'La Cafeta de la Abuela', un café con estética vintage, recetas tradicionales y fuerte presencia en redes. La gente hace filas por tomarse fotos en su ambiente retro y probar el café con sabor a hogar. Y lo más insólito: un tercer competidor —una pequeña librería universitaria— decidió meter una máquina de café de especialidad en su local. Venden menos, pero lo hacen sin costos operativos grandes y captan nichos muy específicos.\n\nEs decir: llegaron competidores con más capital, más seguidores o modelos híbridos que pisan fuerte. Cada uno ofrece una alternativa real. En términos de las 5 Fuerzas de Porter, estás frente a una situación de alta amenaza de nuevos entrantes.",
+      "question": "¿Cómo enfrentarás la creciente competencia sin perder tu identidad?",
+      "decisions": [
+        {
+          "id": "A",
+          "text": "🌐 Blindar tu ecosistema con alianzas locales",
+          "strategy_type": "🤝 Estrategia Colaborativa",
+          "effects": {
+            "Reputación": 15,
+            "Riesgo acumulado": -4,
+            "Rentabilidad": -6
+          },
+          "description": "Firmás convenio con un proveedor local de pastelería artesanal para reducir costos fijos y diversificar postres. Proponés un acuerdo con la red de cafeterías independientes de tu ciudad para lanzar una 'Ruta del Café Artesanal' que incentive a los clientes a visitar varios cafés de autor. Organizás un evento mensual donde tu cafetería se convierte en un punto de encuentro cultural: charlas, microexposiciones, trueques de libros. Te conectás con otros para hacerte más fuerte.",
+          "unlocks": "isla_4_E",
+          "synergy_with": "isla_2_D",
+          "synergy_bonus": {
+            "Rentabilidad": 2
+          }
+        },
+        {
+          "id": "B",
+          "text": "📈 Escalar sin perder el alma",
+          "strategy_type": "📈 Estrategia de Expansión",
+          "effects": {
+            "Reputación": 8,
+            "Liquidez": -12,
+            "Rentabilidad": -6,
+            "Riesgo acumulado": 5
+          },
+          "description": "Decidís dar un salto: abrís una segunda sucursal. Pero no querés convertirte en una franquicia sin alma. Así que tomás decisiones lentas y meditadas: Elegís una zona de menor competencia y con perfil estudiantil-artístico. Contratás a un nuevo barista con enfoque en experiencia sensorial. Replicás la esencia, pero adaptás el menú a los gustos del nuevo barrio.",
+          "unlocks": "isla_5_E"
+        },
+        {
+          "id": "C",
+          "text": "💻 Convertirse en una marca digital de nicho",
+          "strategy_type": "💻 Estrategia de Transformación Digital",
+          "effects": {
+            "Reputación": 5,
+            "Rentabilidad": 3,
+            "Liquidez": -7,
+            "Riesgo acumulado": -8
+          },
+          "description": "Aceptás que no podés competir en cantidad, pero sí en calidad emocional y presencia simbólica. Abres una sub división de tienda online en redes sociales donde vendes: Café molido de origen, merch con frases y diseño del Rincón de Amaru, libretas de autor y objetos curados relacionados al café y la reflexión. Además, usás redes no para hacer promociones, sino para contar historias: cada semana hacés lives con clientes que comparten cómo el café los acompaña en su vida diaria.",
+          "synergy_with": "isla_4_A",
+          "synergy_bonus": {
+            "Riesgo acumulado": -5
+          }
+        },
+        {
+          "id": "D",
+          "text": "🎨 Apuesta por hiperpersonalización radical",
+          "strategy_type": "🎨 Estrategia de Diferenciación Extrema",
+          "effects": {
+            "Reputación": 9,
+            "Rentabilidad": -3,
+            "Riesgo acumulado": -1
+          },
+          "description": "Decidís contraatacar. Pero no con volumen ni visibilidad, sino con profundidad. Diseñás combos únicos que se adaptan a los gustos individuales: café + libro + música recomendada. Llevás un registro manual de los gustos de cada cliente habitual. Permitís que, al reservar una mesa, puedan elegir playlist y ubicación. Tu lema es: 'Nadie tiene tu café, porque nadie tiene tu historia.'"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "🏝️ ISLA 4: Amenaza de los Productos Sustitutos",
+      "context": "'La amenaza más difícil de ver… es la que no se presenta como tu enemiga directa.' Las ventas no están bajando por errores en tu café, ni por críticas negativas. Es otra cosa. Una tendencia silenciosa.\n\nEl cliente que antes llegaba religiosamente todos los jueves, ahora solo pasa una vez al mes. Y cuando le preguntás, no te dice que fue a otra cafetería. Te dice que se está cuidando. Que ahora toma jugos detox. Que una amiga le invitó kombucha. Que toma mate para concentrarse. O que ahora le llega un paquete de cápsulas de café premium con olor a cardamomo y su caja ecológica.\n\nTu negocio no está perdiendo… está siendo reemplazado.",
+      "question": "¿Cómo responderás a la amenaza de los productos sustitutos?",
+      "decisions": [
+        {
+          "id": "A",
+          "text": "📦 Lanzar tu línea de cápsulas artesanales",
+          "strategy_type": "📦 Estrategia de Diversificación",
+          "effects": {
+            "Rentabilidad": 1,
+            "Liquidez": -8,
+            "Reputación": 1,
+            "Riesgo acumulado": 5
+          },
+          "description": "Decidís responder con un producto que se pueda consumir sin estar físicamente en la cafetería, pero sin renunciar a tu esencia. Mandás a hacer cápsulas compatibles con las máquinas más comunes, usando café de origen, con empaques compostables, diseño de autor, y distintos perfiles de sabor. Tu idea: posicionarte como la alternativa artesanal y local frente a las grandes cápsulas industriales.",
+          "synergy_with": "isla_3_C",
+          "synergy_bonus": {
+            "Riesgo acumulado": -5
+          }
+        },
+        {
+          "id": "B",
+          "text": "🧘 Reconversión sensorial: no vendés café, vendés ritual",
+          "strategy_type": "🧘 Estrategia de Reposicionamiento",
+          "effects": {
+            "Reputación": 12,
+            "Rentabilidad": -7,
+            "Liquidez": -4,
+            "Riesgo acumulado": -3
+          },
+          "description": "Reformular tu propuesta: no vas a competir con la función de 'dar energía', sino con el valor emocional del ritual del café. Rediseñás parte del espacio como un laboratorio sensorial: Invitás a que cada cliente elija su grano, lo muela, lo filtre y lo consuma con calma. Incorporás catas a ciegas semanales. Diseñás un menú con historias del origen del café y su gente. Vendés 'kits sensoriales' para llevar la experiencia a casa. Tu nuevo eje: experiencia lenta, íntima, transformadora."
+        },
+        {
+          "id": "C",
+          "text": "🌿 Adoptar sustitutos sin perder identidad",
+          "strategy_type": "🌿 Estrategia de Adaptación",
+          "effects": {
+            "Reputación": 8,
+            "Rentabilidad": 2,
+            "Liquidez": -5,
+            "Riesgo acumulado": 1
+          },
+          "description": "Decidís incluir en tu carta algunos productos sustitutos, pero los adaptás a tu visión: Kombucha artesanal con sabores de la región. Leches vegetales fermentadas estilo yogur helado. Batidos energéticos con café como ingrediente base. Y un postre hecho con mate cocido artesanal. No copiás al rival: reimaginás lo que está de moda, sin perder tu carácter."
+        },
+        {
+          "id": "D",
+          "text": "☕ Ignorar la tendencia y proteger el núcleo",
+          "strategy_type": "☕ Estrategia de Enfoque",
+          "effects": {
+            "Reputación": 4,
+            "Rentabilidad": 1,
+            "Riesgo acumulado": 5
+          },
+          "description": "Decidís no seguir las modas. Tu enfoque: 'Quien quiere café de verdad, ya sabe dónde encontrarlo'. Refinás lo que ya hacés bien: Cambiás a una tostadora de café más premiada. Ajustás los métodos para mayor precisión. Hacés micro-lotes con cata limitada. Te volvés más exigente: no aceptás modas, solo calidad. Querés que Amaru sea sinónimo de ortodoxia cafetera."
+        },
+        {
+          "id": "E",
+          "text": "🤝 Fidelización colaborativa: la tarjeta del café hermano",
+          "strategy_type": "🤝 Estrategia de Red Colaborativa",
+          "effects": {
+            "Reputación": 10,
+            "Rentabilidad": 3,
+            "Liquidez": -2,
+            "Riesgo acumulado": -4
+          },
+          "description": "Los sustitutos son poderosos… si cada cafetería pelea sola. Pero si te unís a otras tres cafeterías aliadas de tu red, lanzan una tarjeta de fidelización compartida, que premia la rotación dentro del ecosistema. Cada vez que un cliente visita una de las cafeterías aliadas, acumula puntos válidos en todas. Organizás un sistema digital mínimo para que cada local registre el consumo. Además, lanzás una campaña conjunta en redes: '¿Tomás café? Que sea con historia, con rostro y con barrio.'",
+          "requires": "isla_3_A"
+        },
+        {
+          "id": "F",
+          "text": "🌱 Lanzar una línea de bebidas de autor con trazabilidad total",
+          "strategy_type": "🌱 Estrategia de Integración Vertical",
+          "effects": {
+            "Reputación": 12,
+            "Rentabilidad": 4,
+            "Liquidez": -3,
+            "Riesgo acumulado": -2
+          },
+          "description": "Te aliaste con productores para tu centro de acopio en la isla 1-D, pero ahora puedes aprovechar ese centro de acopio para otro tipo de plantas nativas (café, cacao, huacatay, muña, etc.) y desarrollas una línea de bebidas de autor, cuyas recetas son únicas y cuyas materias primas pueden rastrearse hasta su origen exacto. Incorporas un sistema de trazabilidad sencilla por QR, donde el cliente ve qué comunidad cultivó esa planta, bajo qué prácticas, e incluso puede dejarle un mensaje o propina digital. Las bebidas se sirven en formato especial (vasos distintos, nombres que homenajean a cada comunidad, etc.) y se convierten en parte de tu narrativa central. De esta forma logras percibir a los productos sustitutos no como competencia, sino como un impulso de todo el emprendimiento, logrando diversificación, pero sin perder el origen y la esencia de la casa de Amaru.",
+          "requires": "isla_1_D"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "🏝️ ISLA 5: Rivalidad entre Competidores Existentes",
+      "context": "Tus decisiones pasadas dieron frutos. Pero tus rivales tampoco están dormidos. En las últimas semanas han aparecido campañas publicitarias llamativas de otras cafeterías de la zona. Algunas más baratas, otras con combos tentadores. Incluso hay una cadena nacional que está lanzando una sede a solo dos cuadras.\n\nY no es solo marketing. También hay rumores de poaching: están tentando a tus proveedores de café con mejores ofertas. Uno de ellos ya se cambió. Además, un blog gastronómico local hizo un ranking de cafeterías y, aunque estás bien posicionado, hay dos nuevos nombres que están robando el foco mediático.\n\nLa competencia no siempre se presenta como ataque directo, pero es constante, sutil y poderosa. Y ahora, te toca mover.",
+      "question": "¿Cómo enfrentarás la creciente rivalidad sin caer en una guerra de precios?",
+      "decisions": [
+        {
+          "id": "A",
+          "text": "🎬 Competir en esencia, no en precio",
+          "strategy_type": "🎬 Estrategia de Diferenciación Narrativa",
+          "effects": {
+            "Reputación": 12,
+            "Liquidez": -4,
+            "Rentabilidad": 3,
+            "Riesgo acumulado": -2
+          },
+          "description": "Reforzás la narrativa de tu café. Invertís en una serie documental propia en redes, con capítulos cortos donde contás la historia detrás de cada proveedor, de cada insumo, de cada receta. Hablás de los granos, de su cosecha, del tostado artesanal. Mostrás el ritual del café. Humanizás la cadena. Además, capacitás a tu personal para contar esa historia a cada cliente nuevo: el café no es solo sabor, es cultura, origen, ética."
+        },
+        {
+          "id": "B",
+          "text": "🔥 Enfrentar fuego con fuego: combos y cupones",
+          "strategy_type": "🔥 Estrategia de Guerra de Precios",
+          "effects": {
+            "Liquidez": 2,
+            "Rentabilidad": -6,
+            "Reputación": 4,
+            "Riesgo acumulado": 3
+          },
+          "description": "Tomás el camino clásico. Largás una campaña agresiva de descuentos cruzados. Café + pastel a menor precio, café doble por las mañanas, cupones con código QR para recomendar a amigos. Tenés menos margen, sí. Pero lo compensás con mayor volumen. Incluso pensás en abrir 30 minutos antes para ganarle a la competencia."
+        },
+        {
+          "id": "C",
+          "text": "🎯 Inteligencia competitiva silenciosa",
+          "strategy_type": "🎯 Estrategia de Análisis Estratégico",
+          "effects": {
+            "Rentabilidad": 5,
+            "Liquidez": -3,
+            "Reputación": 6,
+            "Riesgo acumulado": -1
+          },
+          "description": "Contratás a una consultora pequeña para hacer un estudio competitivo: visitan a tus rivales, entrevistan a sus clientes, miden sus precios, evalúan su ambientación. Paralelamente, hacés encuestas internas a tus clientes para saber qué les hace volver. Con esa data, rediseñás tu propuesta silenciosamente: ajustás platos, aromas, música, tipos de café… sin decir una palabra al exterior."
+        },
+        {
+          "id": "D",
+          "text": "🎭 Convertirse en epicentro cultural",
+          "strategy_type": "🎭 Estrategia de Posicionamiento Cultural",
+          "effects": {
+            "Reputación": 14,
+            "Liquidez": -7,
+            "Rentabilidad": 2,
+            "Riesgo acumulado": -4
+          },
+          "description": "Organizás un calendario fijo de actividades: Miércoles de poesía. Sábados de música acústica. Club de lectura mensual. Exposiciones de artistas locales. Incentivás el uso del espacio como punto de encuentro. Vendés menos café por persona, pero hay más permanencia, más fidelidad, más historia."
+        },
+        {
+          "id": "E",
+          "text": "🌐 Tejer comunidad entre sucursales",
+          "strategy_type": "🌐 Estrategia de Sinergia Empresarial",
+          "effects": {
+            "Reputación": 10,
+            "Rentabilidad": 6,
+            "Liquidez": -5,
+            "Riesgo acumulado": -3
+          },
+          "description": "Ahora tenés dos sucursales, y una base de clientes con programas de fidelización. Lo que hacés es fusionar ambas ideas: Implementás una membresía unificada con beneficios cruzados: puntos que valen en ambas sucursales, eventos rotativos, retos mensuales. Incluso lanzás el 'Pasaporte Amaru': quien consume en ambas sucursales durante un mes, recibe un café especial gratuito + publicación en redes.",
+          "requires": ["isla_2_C", "isla_3_B"]
+        }
+      ]
+    }
+  ]
+}
